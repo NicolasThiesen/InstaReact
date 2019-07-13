@@ -1,0 +1,93 @@
+section#post-list{
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 0 30px;
+    font-family: Noto Sans, sans-serif;
+}
+
+section#post-list article{
+    background: #FFF;
+    border:  1px solid #DDD;
+    margin: 15px auto; 
+}
+
+section#post-list article header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section#post-list article header .user-info{
+    display: flex;
+    flex-direction: column;
+}
+
+section#post-list article header .user-info span{
+    font-size: 17px;
+}
+section#post-list article header .user-info span.place{
+    font-size: 11px;
+    color: #666;
+    margin-top: 3px;
+}
+section#post-list article img{
+    width: 100%;
+}
+section#post-list article footer{
+    padding: 20px;
+}
+section#post-list article footer .action{
+    margin-bottom: 10px;
+}
+
+section#post-list article footer .action i {
+    height: 20px;
+    margin-right: 10px; 
+}
+section#post-list article footer p{
+    font-size: 13px;
+    margin-top:2px;
+    line-height: 18px; 
+}
+section#post-list article footer .info{
+    margin-top: 3px;
+    color: rgb(182, 182, 182);
+    font-size: 12px;    
+}
+section#post-list article footer .info p{
+    font-size: 9px;
+}
+section#post-list article footer p span{
+    color: rgb(0, 58, 250);
+    display: block;
+}
+section#post-list article header i {
+    font-size: 20px;
+}
+section#post-list article footer i{
+    font-size: 23px;
+    width: 35px;
+    height: 30px;
+}
+.right{
+    float: right;
+}
+button{
+    background: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+button:active{
+    color: rgb(138, 138, 138);
+}
+
+.fas.fa-heart{
+    color:red;
+}

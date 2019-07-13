@@ -1,0 +1,35 @@
+header#main-header{
+    background: #fff;
+    height: 50px;
+    border-bottom: 1px solid #DDD;
+}
+header#main-header .header-content{
+    width: 100%;
+    max-width: 980px;
+    margin: 25px auto;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.logo {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100px;
+    height: 35.75px;
+}
+.fab,.fas{
+    font-size: 25px;
+}
+button{
+    background: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+button:active{
+    color: rgb(138, 138, 138);
+}
